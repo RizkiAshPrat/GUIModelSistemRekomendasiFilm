@@ -1,0 +1,148 @@
+body{
+  background-attachment: fixed;
+  background: url("../static/gambar/bgfilm.jpg");
+  background-size: 100% 100%;
+  background-attachment:fixed;
+}
+
+h1 {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+nav .navbar-nav li a{
+  color: white !important;  
+}
+
+nav .navbar-brand {
+  color: white !important;  
+}
+
+.copyright{
+  color: white !important;
+}
+
+.p {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.container {
+  /* background-color: ; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.content{
+  margin-top: 6rem;
+}
+.coklat {
+  color: #964B00;
+}
+.warna {
+  color:#05F4B7;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.warna2 {
+  color: #371BB1;
+}
+
+.warna3 {
+  color: rgb(255, 255, 255);
+}
+
+.warna4{
+  color: rgb(0, 0, 0);
+}
+
+.kiri {
+  margin-left: auto;
+}
+
+.bgg{
+  background-color: #F7F4E9;
+}
+
+.member-info {
+  text-align: center;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+.zoom-effect {  
+  position: relative;
+  overflow: hidden;  
+}
+
+.kotak img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.zoom-effect:hover .kotak img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.hasilPCC{
+  color:blue;
+}
+
+.hasilAdjCos{
+  color:blue;
+}
+
+.hasilITR{
+  color:blue;
+}
+
+.hasilIPWR{
+  color:blue;
+}
+
+.img-fluid {
+  width: 4cm;
+  height: 6cm;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.penjelasann {
+  font-size: 20px;
+}
+
+#proses>img{
+    width: 256px;
+  }
+
+/* .scroll{
+  display:block;
+  border: 1px solid red;
+  padding:5px;
+  margin-top:5px;
+  width:300px;
+  height:50px;
+  overflow:scroll;
+} */
+.auto{
+  display:block;
+  border: 1px solid rgb(0, 0, 0);
+  padding:5px;
+  margin-top:5px;
+  width:auto;
+  height:500px;
+  overflow:auto;
+}
+
+.auto2{
+  display:block;
+  border: 1px solid rgb(0, 0, 0);
+  padding:5px;
+  margin-top:5px;
+  width:2auto;
+  height:573px;
+  overflow:auto;
+}
